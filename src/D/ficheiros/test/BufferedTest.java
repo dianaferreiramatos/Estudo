@@ -22,7 +22,7 @@ public class BufferedTest {
             while ((s = br.readLine()) != null){
                 System.out.println(s);
             }
-            
+
         }catch (IOException e){
                 e.printStackTrace();
         }
